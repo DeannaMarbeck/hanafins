@@ -1,0 +1,112 @@
+body {
+	font-family: Garamond, serif;
+	font-size: 100%;
+	line-height: 1.5;
+	background:
+	url("images/square_bg.png");
+	background-size: cover;
+
+	/*background-color: white;*/
+}
+
+.wrapper {
+	max-width: 1100px;
+	margin: 0px auto;
+	/*box-shadow: 0 0 10px 10px grey;*/
+	padding: 10px;
+}
+
+.main, .contact, .footer {
+
+
+}
+
+h1, h2 {
+	font-family: serif;
+	background-color: rgb(0,82,156);
+	padding-top: 2em;
+	padding-bottom: 2em;
+	color: white;
+	text-align: center;
+}
+
+h3, p {
+	font-family: sans-serif;
+	/*color: rgb(0,82,156);*/
+}
+
+h1 {
+	font-size: 3em;
+	padding: 1em;
+}
+
+a:hover {
+	/*color:  rgb(0,82,156);*/
+	color: rgb(239,80,51);
+	text-decoration: underline;
+}
+
+a {
+	color: black;	
+}
+
+html {
+	/*background-color: rgb(0,82,156);*/
+
+}
+
+.header {
+	justify-content: space-between;
+	width: 100%;
+}
+
+.main {
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	/*justify-content: space-around;*/
+	justify-content: center;
+	padding-left: 50px;
+	padding-right: 50px;
+	/*width: 80%;*/
+}
+
+.main__text {
+	flex: 2;
+}
+
+.main__illus {
+	flex: 1;
+}
+
+.contact {
+	display: flex;
+	flex-flow: row wrap;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	line-height: 0.8;
+	padding-left: 10px;
+}
+
+.contact__left {
+	flex: 2;
+}
+
+.contact__right {
+	/*align-content: flex-end;*/
+	flex: 1;
+}
+
+.footer {
+	text-align: center;
+	background-color: rgb(0,82,156);
+	padding: 10px 0px;
+}
+
+.logo {
+	max-width: 100%;
+}
+
+iframe {
+
+}
