@@ -1,43 +1,40 @@
 body {
-	font-family: Garamond, serif;
+	font-family: 'Nunito', sans-serif;
 	font-size: 100%;
 	line-height: 1.5;
 	background:
-	url("images/square_bg.png");
+	url("../images/square_bg.png");
 	background-size: cover;
-
-	/*background-color: white;*/
 }
 
 .wrapper {
 	max-width: 1100px;
 	margin: 0px auto;
-	/*box-shadow: 0 0 10px 10px grey;*/
 	padding: 10px;
 }
 
-.main, .contact, .footer {
-
-
-}
-
 h1, h2 {
-	font-family: serif;
-	background-color: rgb(0,82,156);
-	padding-top: 2em;
-	padding-bottom: 2em;
+	font-family: 'EB Garamond', serif;
+	background: linear-gradient(rgb(0,82,156), rgb(82,176,232));
+	padding-top: 1em;
+	padding-bottom: 1em;
 	color: white;
 	text-align: center;
-}
-
-h3, p {
-	font-family: sans-serif;
-	/*color: rgb(0,82,156);*/
+	margin-top: 0;
 }
 
 h1 {
-	font-size: 3em;
-	padding: 1em;
+	font-size: 3.5em;
+	/*padding: 1em;*/
+}
+
+h2 {
+	font-size: 2.5em;
+}
+
+
+ul {
+
 }
 
 a:hover {
@@ -68,6 +65,7 @@ html {
 	justify-content: center;
 	padding-left: 50px;
 	padding-right: 50px;
+	padding-bottom: 2em;
 	/*width: 80%;*/
 }
 
@@ -79,13 +77,19 @@ html {
 	flex: 1;
 }
 
+.pharmacist {
+	box-shadow: 0 0 2px 2px grey;
+}
+
 .contact {
 	display: flex;
 	flex-flow: row wrap;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	line-height: 0.8;
-	padding-left: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-bottom: 2em;
 }
 
 .contact__left {
@@ -99,8 +103,10 @@ html {
 
 .footer {
 	text-align: center;
-	background-color: rgb(0,82,156);
+	background: linear-gradient(rgb(0,82,156), rgb(82,176,232));
 	padding: 10px 0px;
+	color: white;
+	font-size: 0.8em;
 }
 
 .logo {
@@ -108,5 +114,10 @@ html {
 }
 
 iframe {
+	/*width: 100%;*/
+	min-width: 100px;
+	/*border: 1px solid grey;*/
+	/*height: auto;*/
+	box-shadow: 0 0 2px 2px grey;
 
 }
